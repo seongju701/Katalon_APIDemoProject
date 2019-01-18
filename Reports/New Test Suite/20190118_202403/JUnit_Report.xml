@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite" time="4" tests="1" failures="0" errors="0">
+   <testsuite name="New Test Suite" tests="1" failures="0" errors="0" time="4" timestamp="2019-01-18 20:24:06" hostname="seongjucho - 218.38.137.27" id="Test Suites/New Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/seongjucho/Katalon Studio/API Demo Project1/Reports/New Test Suite/20190118_202403"/>
+         <property name="logFiles" value="/Users/seongjucho/Katalon Studio/API Demo Project1/Reports/New Test Suite/20190118_202403/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="seongjucho - 218.38.137.27"/>
+         <property name="hostAddress" value="218.38.137.27"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.8.0.1"/>
+      </properties>
+      <testcase name="Test Cases/ListUser" classname="Test Cases/ListUser" status="PASSED">
+         <system-out><![CDATA[2019-01-18 20:24:07 - [TEST_CASE][PASSED] - Test Cases/ListUser: Test Cases/ListUser
+
+2019-01-18 20:24:07 - [TEST_STEP][PASSED] - sendRequest: Send request successfully
+
+2019-01-18 20:24:10 - [MESSAGE][PASSED] - Send request successfully
+
+2019-01-18 20:24:10 - [TEST_STEP][PASSED] - Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequestAndVerify(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(UserResultService/ListUsers)): Send request and verify the response successfully
+
+2019-01-18 20:24:10 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2019-01-18 20:24:11 - [TEST_STEP][PASSED] - Statement - request = com.kms.katalon.core.webservice.verification.WSResponseManager.getInstance().getCurrentRequest(): null
+
+2019-01-18 20:24:11 - [TEST_STEP][PASSED] - Statement - response = com.kms.katalon.core.webservice.verification.WSResponseManager.getInstance().getCurrentResponse(): null
+
+2019-01-18 20:24:11 - [TEST_STEP][PASSED] - verifyResponseStatusCode: Verify response status code successfully
+
+2019-01-18 20:24:11 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-01-18 20:24:11 - [TEST_STEP][PASSED] - Statement - org.assertj.core.api.Assertions.assertThat(response.getStatusCode()).isEqualTo(200): null
+
+2019-01-18 20:24:11 - [TEST_STEP][PASSED] - verifyElementPropertyValue: Verify element property value successfully
+
+2019-01-18 20:24:11 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-01-18 20:24:11 - [MESSAGE][PASSED] - Verify response successfully
+
+2019-01-18 20:24:11 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2019-01-18 20:24:11 - [TEST_STEP][PASSED] - verifyElementPropertyValue: Verify element property value successfully
+
+2019-01-18 20:24:11 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-01-18 20:24:11 - [TEST_STEP][PASSED] - verifyElementsCount: Verify element count successfully
+
+2019-01-18 20:24:11 - [MESSAGE][PASSED] - Verify element count successfully
+
+2019-01-18 20:24:11 - [TEST_STEP][PASSED] - verifyResponseStatusCodeInRange: Verify response status code successfully
+
+2019-01-18 20:24:11 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-01-18 20:24:06 - [TEST_SUITE][PASSED] - New Test Suite: Test Cases/ListUser]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
